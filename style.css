@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #476072;
+}
+
+.banner {
+  background-image: url(https://picsum.photos/id/1021/900/400);
+  background-size: cover;
+  color:  #EEEEEE;
+  padding: 100px 0;
+}
+
+.container {
+  width: 50px auto;
+  margin: 50px auto;
+}
+
+.link {
+  width: 50px auto;
+  margin: 50px auto;
+  text-align: center;
+}
+
+h2 {
+  color: rgba(71, 96, 114, 0.5);
+  font-weight: heavier;
+}
+
+a {
+text-decoration: none;
+color: #548CA8;
+margin: 50px 0;
+}
+
+/* .link-medium {
+  background-image: linear-gradient(to bottom, rgba(84, 140, 55, 1), rgba(71, 96, 114, 1));
+  color: #EEEEEE;
+  padding: 15px;
+  border-radius: 7px;
+} */
+
+.btn-green {
+  padding: 15px;
+  background-color: #334257;
+  color: #EEEEEE;
+  border-radius: 7px;
+}
+
+.btn-green:hover {
+  background-color: #476072;
+  color: #EEEEEE;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 70%;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 70%;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 70%;
+  }
+}
